@@ -18,7 +18,7 @@ const About = () => {
 
         <div className='flex-1'>
           <p className='mb-10 max-w-2xl font-Ovo'>
-            I'm a student that love computer magic. Do you believe it? Oh, I think I'm just kidding, haha!
+            {`I'm a student that love computer magic. Do you believe it? Oh, I think I'm just kidding, haha!`}
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
