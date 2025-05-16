@@ -14,7 +14,7 @@ const Projects = ({ isDarkMode }) => {
       </h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I've done several projects, including aws and c++.
+        {`I've done several projects, including aws and c++.`}
       </p>
 
       <div className='grid grid-cols-auto my-10 gap-5'>

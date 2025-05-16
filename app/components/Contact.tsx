@@ -39,7 +39,7 @@ const Contact = ({isDarkMode}) => {
         </h2>
 
         <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-            I'd love to hear from you. Please use the form below. Feel free to share any feedback or comments!
+            {`I'd love to hear from you. Please use the form below. Feel free to share any feedback or comments!`}
         </p>
 
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
