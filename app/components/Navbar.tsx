@@ -65,7 +65,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
         {/* folden menu */}
 
-        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-32 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 dark:bg-gray-300 transition duration-500'>
+        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-48 top-0 bottom-0 w-48 z-50 h-screen bg-rose-50 dark:bg-gray-300 transition duration-500'>
             <div className='absolute right-6 top-6' onClick={closeMenu}>
               {/* cursor-pointer: when mouse stop at it, cursor bacome a hand */}
               <Image src={assets.close_black_icon} alt='' className='w-5 cursor-pointer' />
